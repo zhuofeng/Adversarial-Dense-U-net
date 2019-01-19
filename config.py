@@ -33,13 +33,13 @@ config.VALID.lr_img_path = 'data2017/DIV2K_valid_LR_bicubic/X4/'
 config.VALID.logdir = 'log/'
 
 #the path of the hoshisuna image and lung image
-config.TRAIN.hoshisuna_path = '/homes/tzheng/CTdata/hoshisunanii/hoshi000005.nii.gz'
-config.TRAIN.medical_path1 = '/homes/tzheng/CTdata/CTMicroNUrespsurg/converted/DICOM_nulung030_dual_cb003_zf_ringRem_med3.nii.gz'
-config.TRAIN.medical_path2 = '/homes/tzheng/CTdata/CTMicroNUrespsurg/converted/DICOM_nulung025_cb_005_zf_ringRem_med3.nii.gz'
-config.TRAIN.medical_path3 = '/homes/tzheng/CTdata/CTMicroNUrespsurg/converted/DICOM_nulung018-a_cb_001_zf_ringRem_med3.nii.gz'
-config.TRAIN.medical_path4 = '/homes/tzheng/CTdata/CTMicroNUrespsurg/nii/nulung017/uCT/nulung017_052_000.nii.gz'
-config.TRAIN.medical_path5 = '/homes/tzheng/CTdata/CTMicroNUrespsurg/nii/nulung014/uCT/nulung014_027_000.nii.gz'
-config.VALID.medical_path =  '/homes/tzheng/CTdata/CTMicroNUrespsurg/converted/DICOM_nulung026_cb_003_zf_ringRem.nii.gz'
+config.TRAIN.hoshisuna_path = ''
+config.TRAIN.medical_path1 = ''
+config.TRAIN.medical_path2 = ''
+config.TRAIN.medical_path3 = ''
+config.TRAIN.medical_path4 = ''
+config.TRAIN.medical_path5 = ''
+config.VALID.medical_path =  ''
 config.TRAIN.all_medical_path = []
 config.TRAIN.all_medical_path.append(config.TRAIN.medical_path1)
 config.TRAIN.all_medical_path.append(config.TRAIN.medical_path2)
